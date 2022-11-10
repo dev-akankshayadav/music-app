@@ -60,7 +60,7 @@ function App() {
       } else {
         return currentSongIndex + 1;
       }
-    });
+    });// eslint-disable-next-line
   },[currentSongIndex]);
 
   return (
